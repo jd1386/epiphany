@@ -10,6 +10,31 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
- *= require_self
+ *= require jquery-ui
  */
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+h1, h2, h3, h4, h5, h6, ul, ol {
+	margin: 0;
+	padding: 0;
+}
+
+ul, ol, li {
+	list-style: none;
+}
+
+.button-box {
+	float: left;
+	padding: 0px 80px;
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+.modal-dialog {
+	width: 700px;
+}
